@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="New Hire Onboarding">11edc0a783481f102b26c6a6feaad397</catalog_item>
+        <catalog_variable>IO:05fd44a783481f102b26c6a6feaad3a6</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-26 07:37:29</sys_created_on>
+        <sys_id>da21d82f83481f102b26c6a6feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vpn_justification</sys_name>
+        <sys_package display_value="Onboarding" source="x_1611922_onboard">cabcfb0f83c49b102b26c6a6feaad3d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">cabcfb0f83c49b102b26c6a6feaad3d2</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_da21d82f83481f102b26c6a6feaad30c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-26 07:37:29</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show VPN justification when VPN is needed">98a018eb83481f102b26c6a6feaad301</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>vpn_justification</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=da21d82f83481f102b26c6a6feaad30c"/>
+</record_update>

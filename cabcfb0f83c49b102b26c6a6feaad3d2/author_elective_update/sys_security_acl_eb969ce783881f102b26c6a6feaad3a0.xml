@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>OnboardingAjax</name>
+        <operation display_value="execute">execute</operation>
+        <script><![CDATA[answer = gs.isLoggedIn();]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-26 08:02:10</sys_created_on>
+        <sys_id>eb969ce783881f102b26c6a6feaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnboardingAjax</sys_name>
+        <sys_package display_value="Onboarding" source="x_1611922_onboard">cabcfb0f83c49b102b26c6a6feaad3d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">cabcfb0f83c49b102b26c6a6feaad3d2</sys_scope>
+        <sys_update_name>sys_security_acl_eb969ce783881f102b26c6a6feaad3a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-26 08:02:10</sys_updated_on>
+        <type display_value="client_callable_script_include">client_callable_script_include</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onboarding">cabcfb0f83c49b102b26c6a6feaad3d2</application>
+        <file_path/>
+        <instance_id>a018166f3b260790a80ce0bf55e45ad4</instance_id>
+        <instance_name>dev443555</instance_name>
+        <name>sys_security_acl_eb969ce783881f102b26c6a6feaad3a0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description/&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;OnboardingAjax&lt;/name&gt;&lt;operation display_value="execute"&gt;execute&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[answer = gs.isLoggedIn();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-10-26 08:02:10&lt;/sys_created_on&gt;&lt;sys_id&gt;eb969ce783881f102b26c6a6feaad3a0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;OnboardingAjax&lt;/sys_name&gt;&lt;sys_package display_value="Onboarding" source="x_1611922_onboard"&gt;cabcfb0f83c49b102b26c6a6feaad3d2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Onboarding"&gt;cabcfb0f83c49b102b26c6a6feaad3d2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_eb969ce783881f102b26c6a6feaad3a0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-10-26 08:02:10&lt;/sys_updated_on&gt;&lt;type display_value="client_callable_script_include"&gt;client_callable_script_include&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-414080882</payload_hash>
+        <record_name>OnboardingAjax</record_name>
+        <reverted_from/>
+        <source>2cbdbb8f83c49b102b26c6a6feaad3e0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-26 08:02:10</sys_created_on>
+        <sys_id>e4e6d42b83881f102b26c6a6feaad357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a1773b317f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-26 08:02:10</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a4e6d42b6c881f10da6ffa1edc640856</update_guid>
+        <update_guid_history>a4e6d42b6c881f10da6ffa1edc640856:-414080882</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-26 08:03:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>cd72e35dfd884de08c11821aeef5f799</sys_id>
+        <sys_metadata>eb969ce783881f102b26c6a6feaad3a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OnboardingAjax</sys_name>
+        <sys_package display_value="Onboarding" source="x_1611922_onboard">cabcfb0f83c49b102b26c6a6feaad3d2</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding">cabcfb0f83c49b102b26c6a6feaad3d2</sys_scope>
+        <sys_scope_delete display_value="">0ce8058317ff4c3e82080ac007b27b69</sys_scope_delete>
+        <sys_update_name>sys_security_acl_eb969ce783881f102b26c6a6feaad3a0</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_eb969ce783881f102b26c6a6feaad3a0">e4e6d42b83881f102b26c6a6feaad357</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-26 08:03:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
